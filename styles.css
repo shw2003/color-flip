@@ -1,0 +1,96 @@
+html {
+  font-size: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*===========nav============*/
+nav {
+  background: white;
+  height: 4rem;
+  margin-right: 0px;
+  display: grid;
+  align-items: center;
+  box-shadow: 0px 3px grey;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-center h1 {
+  color: #645cff;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+}
+
+nav a {
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: gray;
+  letter-spacing: 1px;
+  margin-right: 1rem;
+  transition: 1ms;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/* container*/
+.container {
+  text-align: center;
+  min-height: calc(100vh - 4rem);
+  display: grid;
+  place-items: center;
+  background-color: lightblue;
+
+  z-index: -1;
+}
+
+.container h1 {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 2.5rem;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.color {
+  color: blue;
+  text-transform: uppercase;
+}
+
+.btn-hero {
+  text-transform: uppercase;
+  background: transparent;
+  color: black;
+  letter-spacing: 0.25rem;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 0.75rem 1.25rem;
+}
+.btn-hero:hover {
+  color: white;
+  background: black;
+}
+
+.title {
+  text-align: center;
+}
